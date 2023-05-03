@@ -11,7 +11,7 @@ function Header(props) {
         margin: "auto",
     }
     return (
-        <heaader>
+        <header>
             <h1>My Portfolio Page</h1>
             <nav style={navStyle}>
                 <Link to="/">
@@ -24,7 +24,7 @@ function Header(props) {
                     <div>PROJECTS</div>
                 </Link>
             </nav>
-        </heaader>
+        </header>
     );
 }
 
