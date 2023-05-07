@@ -7,6 +7,25 @@
   pointer-events: none;
 }
 
+.project-card>img{
+  /* background-size: contain; */
+  width: 100%;
+  height: auto;
+  
+}
+.project-container{
+ display: flex;
+ flex-direction: row;
+}
+
+.project-card{
+  border: solid red 1px;
+  height: 300px;
+  width: 250px;
+  margin: 3vmin;
+  padding: 2vmin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

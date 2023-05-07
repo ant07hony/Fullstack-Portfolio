@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Projects(props){
+function Projects(props) {
 
     const [projects, setProjects] = useState(null)
 
@@ -9,6 +9,7 @@ function Projects(props){
         const response = await fetch("./projects.json")
 
         const data = await response.json()
+        console.log(data)
 
         setProjects(data)
     }
@@ -17,15 +18,21 @@ function Projects(props){
 
     const loaded = () => {
         return projects.map((project) => (
-            <div>
-                <h1>{ project.name }</h1>
-                <img src={ project.image }></img>
-                <a href={ project.git }>Github</a>
-                <a href={ project.live }><button>Live Site</button></a>
+
+            <div className="project-card">
+                <h1>{project.name}</h1>
+                <img src={project.image}></img>
+                <a href={project.git}>Github</a>
+                <a href={project.live}><button>Live Site</button></a>
             </div>
+            
         ))
-    }
-    return projects ? loaded() : <h1>Loading...</h1>
+}
+return (
+    <div className="project-container">
+        {projects ? loaded() : <h1>Loading...</h1>}
+    </div>
+)
 }
 
 export default Projects
