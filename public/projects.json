@@ -1,38 +1,20 @@
 [
   {
-    "name": "Tamagotchi",
+    "name": "Green Thumb!",
+    "live": "https://greenthumb.herokuapp.com/accounts/login/?next=/",
+    "git": "https://github.com/ant07hony/Green_Thumb",
+    "image": "https://i.imgur.com/zwUhz1I.png"
+  },
+  {
+    "name": "Someones-PC",
+    "live": "https://shrouded-meadow-86905.herokuapp.com/",
+    "git": "https://github.com/ant07hony/Someones-PC",
+    "image": "https://i.imgur.com/6CQhziO.png"
+  },
+  {
+    "name": "'Gotchi-Sitter",
     "live": "https://ant07hony.github.io/Tamagotchi/",
     "git": "https://github.com/ant07hony/Tamagotchi",
-    "image": "https://i.imgur.com/1OAmcci.png"
-  },
-  {
-    "name": "project2",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
-  },
-  {
-    "name": "project3",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
-  },
-  {
-    "name": "project4",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
-  },
-  {
-    "name": "project5",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
-  },
-  {
-    "name": "project6",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
+    "image": "https://i.imgur.com/aVsHPat.png"
   }
 ]
