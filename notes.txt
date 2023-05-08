@@ -1,0 +1,9 @@
+RECOMMENDED FEATURES
+README.md with explanation of design process/approach and technologies used
+
+resources:
+w3Schools Dropdowns
+https://www.w3schools.com/css/css_dropdowns.asp
+
+
+portfolio muct include github, linkedin, contact info

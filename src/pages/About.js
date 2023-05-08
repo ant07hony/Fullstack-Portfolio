@@ -16,9 +16,14 @@ function About(props){
     useEffect(() => getAboutData(), [])
 
     const loaded = () => (
-        <div>
+        <div className="about">
+            <img src={about.headshot} ></img>
             <h2>{ about.name }</h2>
-            <h3>{ about.email }</h3>
+            <div className="about-links">
+            <a href={ about.resume }>Resume</a>
+            <a href={about.github}>Github</a>
+            <a href={about.linkedin}>LinkedIn</a>
+            </div>
             <p>{ about.bio }</p>
         </div>
     )

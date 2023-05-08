@@ -2,13 +2,13 @@ import './App.css'
 import Header from '../Header';
 import Footer from '../Footer';
 import { Route, Routes } from "react-router-dom";
-import Home from '../../pages/Home';
+import MyLinks from '../../pages/MyLinks';
 import About from '../../pages/About';
 import Projects from '../../pages/Projects';
 
 function App() {
 
-  const URL = "<INSERT HEROKU URL >"
+ 
   return (
     <div className="App">
       <Header/>
@@ -16,18 +16,18 @@ function App() {
 
           <Route
             exact path="/"
-            element={<Home />}
+            element={<About />}
           />
 
           <Route
             path="/projects"
-            element={<Projects URL={URL} />}
+            element={<Projects />}
           />
 
-          <Route
+          {/* <Route
             path="/about"
-            element={<About URL={URL} />}
-          />
+            element={<About />}
+          /> */}
 
         </Routes>
       

@@ -3,18 +3,22 @@
     "name": "Green Thumb!",
     "live": "https://greenthumb.herokuapp.com/accounts/login/?next=/",
     "git": "https://github.com/ant07hony/Green_Thumb",
-    "image": "https://i.imgur.com/zwUhz1I.png"
+    "image": "https://i.imgur.com/zwUhz1I.png",
+    "description": "Green Thumb! Your Garden Buddy, a one-stop shop for tracking and planning of your gardens"
   },
   {
     "name": "Someones-PC",
     "live": "https://shrouded-meadow-86905.herokuapp.com/",
     "git": "https://github.com/ant07hony/Someones-PC",
-    "image": "https://i.imgur.com/6CQhziO.png"
+    "image": "https://i.imgur.com/6CQhziO.png",
+    "description": "The Best Pokemon Box system ever invented. An app that can be used to create, name and store your teams and Pokemon."
+
   },
   {
     "name": "'Gotchi-Sitter",
     "live": "https://ant07hony.github.io/Tamagotchi/",
     "git": "https://github.com/ant07hony/Tamagotchi",
-    "image": "https://i.imgur.com/aVsHPat.png"
+    "image": "https://i.imgur.com/aVsHPat.png",
+    "description": "A tamagotchi browser based game where you become a Tama'Gotchi-Sitter. Are you up for the challenge? "
   }
 ]
