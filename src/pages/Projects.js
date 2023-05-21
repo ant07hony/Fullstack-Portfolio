@@ -4,20 +4,34 @@ function Projects(props) {
 
     const [projects, setProjects] = useState(null)
 
-    const getProjectsData = async () => {
+    // const getProjectsData = async () => {
 
-        const response = await fetch("./projects.json")
+    //     const response = await fetch("./projects.json")
 
-        const data = await response.json()
-        console.log(data)
+    //     const data = await response.json()
+    //     console.log(data)
 
-        setProjects(data)
+    //     setProjects(data)
+    // }
+
+    async function getProjectsData(){
+        try{
+            const response = await fetch("./projects.json")
+
+            const data = await response.json()
+
+            setProjects(data)
+
+        }catch(err){
+            console.log(err)
+        }
     }
 
-    useEffect(() => { getProjectsData() }, [])
+    
+useEffect(() => { getProjectsData() }, [])
 
     const loaded = () => {
-        return projects.map((project, idx) => (
+        return projects?.map((project, idx) => (
 
             <div key={idx} className="project-card">
                 <div className="project-card-content">

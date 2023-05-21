@@ -1,5 +1,12 @@
 [
   {
+    "name": "Nutrition Journal",
+    "live": "https://nutrition-journal-app.netlify.app",
+    "git": "https://github.com/ant07hony/Nutrition-App-FE",
+    "image": "https://i.imgur.com/qaUq3RK.png",
+    "description": "The Nutrition Journal app"
+  },
+  {
     "name": "Green Thumb!",
     "live": "https://greenthumb.herokuapp.com/accounts/login/?next=/",
     "git": "https://github.com/ant07hony/Green_Thumb",

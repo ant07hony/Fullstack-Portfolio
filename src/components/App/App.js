@@ -7,7 +7,7 @@ import About from '../../pages/About';
 import Projects from '../../pages/Projects';
 
 function App() {
-
+  const url = "http://localhost:4000/"
  
   return (
     <div className="App">
