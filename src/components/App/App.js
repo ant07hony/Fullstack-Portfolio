@@ -2,12 +2,11 @@ import './App.css'
 import Header from '../Header';
 import Footer from '../Footer';
 import { Route, Routes } from "react-router-dom";
-import MyLinks from '../../pages/MyLinks';
+import Skills from '../../pages/Skills';
 import About from '../../pages/About';
 import Projects from '../../pages/Projects';
 
 function App() {
-  const url = "http://localhost:4000/"
  
   return (
     <div className="App">
@@ -24,12 +23,13 @@ function App() {
             element={<Projects />}
           />
 
-          {/* <Route
-            path="/about"
-            element={<About />}
-          /> */}
+          <Route
+            path="/skills"
+            element={<Skills />}
+          />
 
         </Routes>
+        {/* <Footer/> */}
       
     </div>
   )

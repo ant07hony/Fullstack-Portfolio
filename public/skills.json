@@ -1,0 +1,46 @@
+[
+    {
+        "name": "HTML",
+        "image": ""
+    },
+    {
+        "name": "CSS",
+        "image": ""
+    },
+    {
+        "name": "JavaScript",
+        "image": ""
+    },
+    {
+        "name": "React",
+        "image": ""
+    },
+    {
+        "name": "Express",
+        "image": ""
+    },
+    {
+        "name": "MongoDB",
+        "image": ""
+    },
+    {
+        "name": "Mongoose",
+        "image": ""
+    },
+    {
+        "name": "Python",
+        "image": ""
+    },
+    {
+        "name": "Django",
+        "image": ""
+    },
+    {
+        "name": "Postgres",
+        "image": ""
+    },
+    {
+        "name": "JSON",
+        "image": ""
+    }
+]

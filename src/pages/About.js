@@ -22,12 +22,18 @@ function About(props){
             <div className="about-links">
             <a href={ about.resume }>Resume</a>
             <a href={about.github}>Github</a>
-            <a href={about.linkedin}>LinkedIn</a>
+            <img></img><a href={about.linkedin}>LinkedIn</a>
             </div>
             <p>{ about.bio }</p>
         </div>
     )
-    return about ? loaded() : <h1>Loading...</h1>
+    return (
+        <div>
+        {about ? loaded() : <h1>Loading...</h1>}
+        <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+        </div>
+       
+    )
 }
 
 export default About
