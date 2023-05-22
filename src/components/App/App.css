@@ -148,9 +148,10 @@
  display: flex;
  width: 100%;
  padding: 0 auto;
- flex-direction: row;
- flex-wrap: wrap;
+ flex-direction: column;
+ /* flex-wrap: wrap; */
  justify-content: center;
+ align-items: center;
 }
 
 .dropdown-content {
