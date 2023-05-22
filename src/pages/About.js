@@ -30,7 +30,7 @@ function About(props){
     return (
         <div>
         {about ? loaded() : <h1>Loading...</h1>}
-        <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+        {/* <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a> */}
         </div>
        
     )
